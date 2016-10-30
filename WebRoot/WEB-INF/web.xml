@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Response4AndroidLogin</servlet-name>
+    <servlet-class>Response4AndroidLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListView4Android</servlet-name>
+    <servlet-class>com.yxhuang.Servelt4Android.bean.ListView4Android</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebServlet</servlet-name>
+    <servlet-class>com.yxhuang.web.WebServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadImage</servlet-name>
+    <servlet-class>com.yxhuang.uploadimage.UploadImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>com.yxhuang.download.DownLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CorInformation</servlet-name>
+    <servlet-class>com.yxhuang.car.information.service.CorInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarInfoHeadServlet</servlet-name>
+    <servlet-class>com.yxhuang.car.information.service.CarInfoHeadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Response4AndroidLogin</servlet-name>
+    <url-pattern>/servlet/Response4AndroidLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListView4Android</servlet-name>
+    <url-pattern>/servlet/ListView4Android</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebServlet</servlet-name>
+    <url-pattern>/WebRoot/image/getImage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UploadImage</servlet-name>
+    <url-pattern>/servlet/UploadImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CorInformation</servlet-name>
+    <url-pattern>/servlet/CorInformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarInfoHeadServlet</servlet-name>
+    <url-pattern>/servlet/CarInfoHeadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>MyJsp.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
